@@ -14,7 +14,7 @@ sudo apt-get update
 ```
 Clone repository 
 ```
-git clone https://github.com/LondheShubham153/TWSThreeTierAppChallenge.git 
+git clone https://github.com/dhruv14385/3tier-app-on-EKS.git 
 ```
 Go to folder TWSThreeTierAppChallenge/frontend 
 
