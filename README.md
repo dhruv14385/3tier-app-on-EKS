@@ -1,10 +1,8 @@
 # 3 tier application deployment on EKS   
+## Summary 
 Frontend on ReactJS, Backend on NodeJS and Database on MongoDB. Launch an EC2 instance. Pull repository. Install Docker. Create backend and frontend images and push them to ECR. Create an EKS cluster. Apply database, backend and frontend manifests, thus creating pods for each tier. Create and configure ALB. Install ingress controller for ALB using Helm. Apply ingress manifest. Create a new DNS record for your domain and check that the app is live. 
 
-I have done this hands-on by watching the video below.  
-https://www.youtube.com/live/wgmYbSN6_Is?si=kgeMPADmR56L2GKU 
-
-https://github.com/LondheShubham153/TWSThreeTierAppChallenge 
+## Steps  
 
 Create an EC2 instance and name it – 3-tier-hq 
 
@@ -191,7 +189,14 @@ kubectl get ing –n workshop
 ```
 Create a new CNAME record for your domain in R53 
 
-Use your host name to check if the app is accessible from public internet.
+Use your host name to check if the app is accessible from public internet.  
+
+Reference - Video tutorial  
+https://www.youtube.com/live/wgmYbSN6_Is?si=kgeMPADmR56L2GKU  
+
+Reference - Github repo  
+https://github.com/LondheShubham153/TWSThreeTierAppChallenge 
+
  
 
  
